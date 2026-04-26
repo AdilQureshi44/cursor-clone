@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #26251e;
+}
+
+.main-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #F7F7F4; */
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+.nav-item {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.header-cta {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    color:white;
+}
+
+.cta-contact-sales {
+    border: 1px solid gray;
+    padding: 6px 10.5px 6px;
+    border-radius: 16px;
+}
+
+.cta-download {
+    background-color: white;
+    padding: 6px 10.5px 6px;
+    border-radius: 16px;
+    color: black;
+}
