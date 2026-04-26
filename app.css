@@ -90,3 +90,7 @@ body {
     border-radius: 32px;
     cursor: pointer;
 }
+.hero-cta:hover{
+    background-color: black;
+    color: white;
+}
