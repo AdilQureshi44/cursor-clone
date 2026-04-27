@@ -106,18 +106,62 @@ body {
     text-align: center;
     color: white;
 }
-.trusted-item-container{
+
+.trusted-item-container {
     display: flex;
     gap: 40px;
     justify-content: center;
     margin-top: 40px;
 }
-.trusted-logs-item{
+
+.trusted-logs-item {
     background-color: white;
     padding: 20px 40px;
     border-radius: 8px;
 }
-.trusted-logs .trusted-logs-item img{
+
+.trusted-logs .trusted-logs-item img {
     height: 40px;
     width: 40px;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 120px 60px;
+}
+
+.feature-text-container {
+    width: 45%;
+    color: white;
+}
+
+.feature-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.feature-sub-title {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.feature-cta {
+    color: red;
+    margin-top: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.feature-image-container {
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.feature-image-container img {
+    width: 100%;
+    height: auto;
 }
