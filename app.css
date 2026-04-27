@@ -165,3 +165,19 @@ body {
     width: 100%;
     height: auto;
 }
+.feature-card-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.feature-card{
+    background-color: #1e1b17;
+    padding: 20px;
+    background-color: #F2F1ED;
+    border-radius: 8px;
+}
+.feature-sub-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
