@@ -236,3 +236,18 @@ body {
     width: max-content;
     margin: auto;
 }
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.product-title, .resource-title, .company-title, .legal-title, .connect-title{
+    color: white;
+    margin-bottom: 16px;
+}
+.item{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 1.7;
+}
