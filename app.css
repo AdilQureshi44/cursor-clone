@@ -190,6 +190,43 @@ body {
     font-size: 72px;
     margin-bottom: 20px;
 }
+.testimonal-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 120px 0;
+}
+.testimonal-card-title{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.testimonal-card{
+    background-color: #1e1b17;
+    padding: 20px;
+    background-color: #F2F1ED;
+    border-radius: 8px;
+}
+.testimonal-card-sub-title{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.testimonal-card-cta{
+    color: red;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+.testimonal-image{
+    width: 350px;
+    background-color: orange;
+}
+.testimonal-image img{
+    width: 100%;
+    height: 100%;
+}
+
 .final-cta{
     background-color: white;
     color: black;
