@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #26251e;
+    background-color: #1B1913;
+    /* 26251e */
 }
 
 .main-container {
@@ -96,7 +97,7 @@ body {
 }
 
 .hero-cta:hover {
-    background-color: black;
+    background-color: #26251E;
     color: white;
 }
 
@@ -171,9 +172,9 @@ body {
     gap: 20px;
 }
 .feature-card{
-    background-color: #1e1b17;
+    color: white;
     padding: 20px;
-    background-color: #F2F1ED;
+    background-color: #26251E;
     border-radius: 8px;
 }
 .feature-sub-container{
@@ -197,18 +198,17 @@ body {
     margin: 120px 0;
 }
 .testimonal-card-title{
-    color: black;
+    color: white;
     font-size: 22px;
     margin-bottom: 12px;
 }
 .testimonal-card{
-    background-color: #1e1b17;
     padding: 20px;
-    background-color: #F2F1ED;
+    background-color: #26251E;
     border-radius: 8px;
 }
 .testimonal-card-sub-title{
-    color: black;
+    color: white;
     font-size: 16px;
     margin-bottom: 12px;
 }
@@ -220,7 +220,6 @@ body {
 }
 .testimonal-image{
     width: 350px;
-    background-color: orange;
 }
 .testimonal-image img{
     width: 100%;
